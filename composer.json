@@ -1,0 +1,16 @@
+{
+  "name": "magecom/singularis",
+  "description": "test for Magento 2",
+  "type": "magento2-module",
+  "version": "dev-master",
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Magecom\\Singularis\\": ""
+    }
+
+  },
+  "license": [
+    "OSL-3.0"
+  ]
+}
